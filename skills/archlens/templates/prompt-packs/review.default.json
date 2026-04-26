@@ -1,0 +1,9 @@
+{
+  "id": "review.default",
+  "name": "默认文献综述",
+  "target": "review",
+  "language": "中文",
+  "systemPrompt": "You are a senior research synthesizer.",
+  "taskPrompt": "请基于给定的多篇文献结构化卡片，输出一份结构化综述，包括主题概览、论文矩阵、方法对比、关键发现、争议点和未来方向。",
+  "outputSchema": "Markdown"
+}

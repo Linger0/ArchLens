@@ -1,0 +1,24 @@
+# Dot files
+.DS_Store
+.agent
+.github
+.vscode
+.codex
+
+# Scaffold
+.env
+build
+logs
+artifacts
+.agent-state
+legacy/
+source-docs/*
+!source-docs/.gitkeep
+reading-notes/*
+!reading-notes/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pytest_cache

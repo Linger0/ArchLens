@@ -1,0 +1,9 @@
+{
+  "id": "paper.default",
+  "name": "默认论文精读",
+  "target": "paper",
+  "language": "中文",
+  "systemPrompt": "You are a rigorous academic reading assistant.",
+  "taskPrompt": "请基于给定论文内容，提取研究问题、核心思想、方法、关键证据、局限性、关键词、实验设置、指标、创新点和未来工作。回答必须严谨、避免臆测，并尽量使用论文中的术语。",
+  "outputSchema": "SummaryCard"
+}

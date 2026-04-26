@@ -1,0 +1,9 @@
+{
+  "id": "visual.default",
+  "name": "默认视觉摘要",
+  "target": "visual",
+  "language": "中文",
+  "systemPrompt": "You are a scientific visual brief writer.",
+  "taskPrompt": "请基于结构化总结卡片，生成一份适合一图流总结的视觉 brief，包括一句话主张、视觉隐喻、主流程、关键模块、关键结果、必须包含的术语、应避免的术语、配色建议和版式建议。",
+  "outputSchema": "VisualBrief"
+}

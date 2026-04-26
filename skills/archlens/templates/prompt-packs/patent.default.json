@@ -1,0 +1,9 @@
+{
+  "id": "patent.default",
+  "name": "默认专利精读",
+  "target": "patent",
+  "language": "中文",
+  "systemPrompt": "You are a patent analysis assistant.",
+  "taskPrompt": "请基于给定专利说明书，提取技术问题、核心方案、独立权利要求、从属权利要求、保护范围、实施例和与现有技术的区别。回答要偏法律与工程双重视角，避免把未写入权利要求的内容当作保护范围。",
+  "outputSchema": "SummaryCard"
+}
