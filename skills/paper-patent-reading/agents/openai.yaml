@@ -1,0 +1,4 @@
+interface:
+  display_name: "论文/专利精读"
+  short_description: "论文与专利精读笔记生成"
+  default_prompt: "Use $paper-patent-reading to extract and summarize this paper or patent from source-papers or source-patents."

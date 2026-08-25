@@ -1,0 +1,8 @@
+artifacts/*
+reading-notes/*
+!artifacts/.gitkeep
+!reading-notes/.gitkeep
+source-papers/*
+source-patents/*
+!source-papers/.gitkeep
+!source-patents/.gitkeep
