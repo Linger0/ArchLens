@@ -2,7 +2,9 @@ artifacts/*
 reading-notes/*
 !artifacts/.gitkeep
 !reading-notes/.gitkeep
+!reading-notes/Sridhar et al. - 2020 - Load Driven Branch Predictor (LDBP).md
 source-papers/*
 source-patents/*
 !source-papers/.gitkeep
+!source-papers/Sridhar et al. - 2020 - Load Driven Branch Predictor (LDBP).pdf
 !source-patents/.gitkeep

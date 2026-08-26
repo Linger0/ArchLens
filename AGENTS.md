@@ -12,11 +12,11 @@ ArchLens is a paper and patent reading project. Its outputs are Markdown notes g
 - `prompts/patent-read.md`: prompt for patent reading.
 - `artifacts/`: MinerU intermediate Markdown, JSON, images, and other extraction resources.
 - `reading-notes/`: final Markdown reading notes.
-- `skills/`: repository-local skills.
-- `skills/paper-patent-reading/SKILL.md`: workflow for MinerU extraction, subagent reading, and note generation.
+- `.agents/skills/paper-patent-reading/SKILL.md`: workflow for MinerU extraction, subagent reading, and note generation.
 
 ## Working Rules
 
 - Read the relevant prompt before analyzing a source document and preserve its body.
 - Keep MinerU intermediate results under `artifacts/` and preserve image resources referenced by extracted Markdown.
 - Write final notes under `reading-notes/` using the source PDF basename.
+- When a paper-reading task is delegated to a subagent, wait for the subagent to finish and use its written result; do not begin generating or rewriting the final note locally before the subagent returns.
